@@ -45,24 +45,24 @@ export default function Services(props: ServicesProps): JSX.Element {
   return (
     <Box id={props.id}>
       <Title>
-        Our <Highlight>Services</Highlight>
+        Our <Highlight>Practices</Highlight>
       </Title>
 
       <Grid container spacing={3} alignItems="stretch">
         <Grid xs={12} sm={4}>
-          <Service title="Well construction" icon={<ConstructionIcon sx={{ fontSize: 96 }} />}>
+          <Service title="Arbitration, and Mediation" icon={<ConstructionIcon sx={{ fontSize: 96 }} />}>
             Our well construction services involve the drilling of new wells, installation of casing or liners, and placement of screens or filters to prevent contamination.
           </Service>
         </Grid>
 
         <Grid xs={12} sm={4}>
-          <Service title="Pump services" icon={<HardwareIcon sx={{ fontSize: 96 }} />}>
+          <Service title="Corporate and Commercial Litigation" icon={<HardwareIcon sx={{ fontSize: 96 }} />}>
             We use top-of-the-line equipment and technology to provide reliable installation, repair, and maintenance of well pumps.
           </Service>
         </Grid>
 
         <Grid xs={12} sm={4}>
-          <Service title="Water drilling" icon={<WaterIcon sx={{ fontSize: 96 }} />}>
+          <Service title="Contracts and Business Agreements" icon={<WaterIcon sx={{ fontSize: 96 }} />}>
             Our water drilling services offer reliable access to clean water. Count on us for safe, efficient, and affordable water drilling services.
           </Service>
         </Grid>

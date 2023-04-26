@@ -1,7 +1,5 @@
 import React from "react";
 
-import DarkModeContext from "./components/context/DarkMode";
-
 import { Tab } from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 
@@ -71,7 +69,7 @@ function ScrollWrapper(props: ScrollWrapperProps): JSX.Element {
 
 const TABS: Tab[] = [
   { title: 'Free Estimate', link: '#header' },
-  { title: 'Services', link: '#services' },
+  { title: 'Practices', link: '#practices' },
   { title: 'About', link: '#about' },
 ];
 
@@ -80,7 +78,6 @@ export default function App(): JSX.Element {
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <DarkModeContext.Provider value={{ darkMode, setDarkMode }}>
         <Router>
           <ScrollWrapper>
             <Routes>
@@ -88,7 +85,6 @@ export default function App(): JSX.Element {
             </Routes>
           </ScrollWrapper>
         </Router>
-      </DarkModeContext.Provider>
     </ThemeProvider>
   );
 }

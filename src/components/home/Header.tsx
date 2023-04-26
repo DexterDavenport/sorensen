@@ -37,7 +37,7 @@ export default function Header(props: HeaderProps): JSX.Element {
         width: "100%",
         backgroundColor: "#B82201",
         backgroundImage:
-          'linear-gradient(160deg, #003c5a, #003c5a11), url("./images/tire-trail.JPEG")',
+          'linear-gradient(160deg, #003c5a, #003c5a11), url("./images/car-crash.jpeg")',
         backgroundSize: "cover",
         backgroundPosition: "center center",
         borderRadius: 0,
@@ -52,12 +52,11 @@ export default function Header(props: HeaderProps): JSX.Element {
               mb={3}
               sx={{ fontFamily: "Krona One" }}
             >
-              <span style={{ color: "#4b94b7" }}>Sorensen</span>  Law & Associates
+              <span style={{ color: "#B82201" }}>Sorensen</span>  Law & Associates
             </Typography>
 
             <Typography variant="h4" color="white" mb={6}>
-              Proudly providing reliable, efficient, and high-quality well
-              drilling services to the Snowflake, Arizona community.
+            Clients Trust Us to Prosper, Preserve, and Protect: Discover Our Unmatched Legal Services at Sorensen Law & Associates
             </Typography>
 
             <Stack direction="row" spacing={3}>
@@ -102,7 +101,7 @@ export default function Header(props: HeaderProps): JSX.Element {
                 </Box>
               </Modal>
               <Button sx={{ color: "white" }} endIcon={<ArrowForwardIcon />}>
-                View Our Services
+                View Our Practices
               </Button>
             </Stack>
           </Grid>

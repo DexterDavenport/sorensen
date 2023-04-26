@@ -35,18 +35,20 @@ function ContactUs(): JSX.Element {
     return (
         <Container sx={{ marginY: 3 }}>
             <Stack minWidth="100%" width={DRAWER_WIDTH} direction="row" justifyContent="space-between" my={2}>
-                <MoneyOffIcon />
-                <Typography variant="subtitle1">480.495.2463</Typography>
+                {/* <MoneyOffIcon /> */}
+                <Typography variant="subtitle1">801.687.1521</Typography>
             </Stack>
 
             <Stack width={DRAWER_WIDTH} direction="row" justifyContent="space-between" my={2}>
-                <EmailIcon />
-                <Typography variant="subtitle1">integritywds@gmail.com</Typography>
+                {/* <EmailIcon /> */}
+                <Typography variant="subtitle1">sorensenlawassociates@gmail.com</Typography>
             </Stack>
 
             <Stack width={DRAWER_WIDTH} direction="row" justifyContent="space-between" my={2}>
-                <InfoIcon />
-                <Typography variant="subtitle1" textAlign="right">Snowflake, Arizona 85937</Typography>
+                {/* <InfoIcon /> */}
+                <Typography variant="subtitle1" textAlign="right">Sorensen Law & Associates
+3210 N Canyon Road, Suite 201
+Provo, Utah 84604</Typography>
             </Stack>
         </Container>
     );
@@ -196,7 +198,7 @@ export class Navbar extends React.Component<NavbarProps> {
                     <Container>
                         <Stack direction="row" justifyContent="space-between" alignItems="center">
                             <Typography variant="h6" color="white">
-                                IWDS
+                                
                             </Typography>
 
                             <Stack direction="row" spacing={3} sx={{ display: { xs: 'none', md: 'block' }}}>

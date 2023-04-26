@@ -4,7 +4,7 @@ import DarkModeContext from "../components/context/DarkMode";
 
 import { Tab, Navbar } from "../components/Navbar";
 import Header from '../components/home/Header';
-import Services from "../components/home/Services";
+import Services from "../components/home/Practices";
 import About from "../components/home/About";
 import Footer from "../components/Footer";
 
@@ -40,11 +40,11 @@ export default function HomePage(props: HomePageProps): JSX.Element {
             <Header id="header"/>
 
             <Container maxWidth="lg">
-                <Services id="services" />
+                <Services id="practices" />
 
                 <About id="about" />
     
-                <FormControlLabel control={<Switch checked={darkModeContext?.darkMode} onChange={handleChange} />} label="Dark Mode" />
+                {/* <FormControlLabel control={<Switch checked={darkModeContext?.darkMode} onChange={handleChange} />} label="Dark Mode" /> */}
             </Container>
 
             <Footer />

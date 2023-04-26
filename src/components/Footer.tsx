@@ -19,7 +19,7 @@ export default function Footer(props: FooterProps): JSX.Element {
       <Container>
         <Stack direction="row" justifyContent="space-between" py={3}>
           <Typography color="white">
-            COPYRIGHT © {today.getFullYear()} INTEGRITYWELLDRILLINGSERVICES -
+            COPYRIGHT © {today.getFullYear()} SORENSENLAW&ASSOCIATES -
             ALL RIGHTS RESERVED.
           </Typography> 
         </Stack>
