@@ -35,7 +35,7 @@ export default function Header(props: HeaderProps): JSX.Element {
       elevation={2}
       sx={{
         width: "100%",
-        backgroundColor: "#404040",
+        backgroundColor: "#B82201",
         backgroundImage:
           'linear-gradient(160deg, #003c5a, #003c5a11), url("./images/tire-trail.JPEG")',
         backgroundSize: "cover",
@@ -52,8 +52,7 @@ export default function Header(props: HeaderProps): JSX.Element {
               mb={3}
               sx={{ fontFamily: "Krona One" }}
             >
-              <span style={{ color: "#4b94b7" }}>Integrity</span> Well and
-              Drilling Services
+              <span style={{ color: "#4b94b7" }}>Sorensen</span>  Law & Associates
             </Typography>
 
             <Typography variant="h4" color="white" mb={6}>

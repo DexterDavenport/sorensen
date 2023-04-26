@@ -15,14 +15,14 @@ import { BrowserRouter as Router, Routes, Route, Location, useLocation } from "r
 const lightTheme = createTheme({
   palette: {
     primary: {
-      light: "#4b94b7",
-      main: "#086788",
+      light: "#B82201",
+      main: "#B82201",
       dark: "#003c5a",
       contrastText: "#fff",
     },
     secondary: {
-      light: "#a68f89",
-      main: "#77625c",
+      light: "#B82201",
+      main: "#B82201",
       dark: "#4b3833",
     },
     background: {
