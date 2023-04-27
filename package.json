@@ -1,5 +1,5 @@
 {
-  "name": "integrity-well-drilling",
+  "name": "sorensen-law-and-associates",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -68,10 +68,14 @@
     "webpack-manifest-plugin": "^4.0.2",
     "workbox-webpack-plugin": "^6.4.1"
   },
+  "homepage": "https://DexterDavenport.github.io/sorensen",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -144,5 +148,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
+
 }
