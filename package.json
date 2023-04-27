@@ -68,7 +68,7 @@
     "webpack-manifest-plugin": "^4.0.2",
     "workbox-webpack-plugin": "^6.4.1"
   },
-  "homepage": "https://DexterDavenport.github.io/sorensen",
+  "homepage": "https://dexterdavenport.github.io/sorensen/",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
