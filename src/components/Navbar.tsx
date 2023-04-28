@@ -46,9 +46,11 @@ function ContactUs(): JSX.Element {
 
             <Stack width={DRAWER_WIDTH} direction="row" justifyContent="space-between" my={2}>
                 {/* <InfoIcon /> */}
-                <Typography variant="subtitle1" textAlign="right">Sorensen Law & Associates
-3210 N Canyon Road, Suite 201
-Provo, Utah 84604</Typography>
+                <Typography variant="subtitle1" textAlign="right">
+                    Sorensen Law & Associates
+                    3210 N Canyon Road, Suite 201
+                    Provo, Utah 84604
+                </Typography>
             </Stack>
         </Container>
     );

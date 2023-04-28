@@ -80,29 +80,29 @@ export default function Header(props: HeaderProps): JSX.Element {
                     variant="h6"
                     component="h2"
                   >
-                    Give us a call or send us an email for your <span style={{ color: "#4b94b7" }}>FREE</span> quote
+                    Give us a call or send us an email for your <span style={{ color: "#B82201" }}>FREE</span> quote
                   </Typography>
                   <p>
                     Call us at{" "}
-                    <span style={{ color: "#4b94b7" }}>480.495.2463</span>
+                    <span style={{ color: "#B82201" }}>801.226.1264</span>
                   </p>
                   <p>
                     Or email us at{" "}
-                    <span style={{ color: "#4b94b7" }}>
-                      integritywds@gmail.com
+                    <span style={{ color: "#B82201" }}>
+                      sorensenlawassociates@gmail.com
                     </span>
                   </p>
                   <p>Make sure to have the following information ready:</p>
                   <ul>
                     <li>Name</li>
-                    <li>Address</li>
-                    <li>best way for us to contact you (email/phone number)</li>
+                    <li>Information to be requested</li>
+                    <li>Best way for us to contact you (email/phone number)</li>
                   </ul>
                 </Box>
               </Modal>
-              <Button sx={{ color: "white" }} endIcon={<ArrowForwardIcon />}>
+              {/* <Button sx={{ color: "white" }} endIcon={<ArrowForwardIcon />}>
                 View Our Practices
-              </Button>
+              </Button> */}
             </Stack>
           </Grid>
         </Grid>

@@ -11,7 +11,7 @@ type HighlightProps = {
 export class Highlight extends React.Component<HighlightProps> {
   public render(): JSX.Element {
     return (
-      <span style={{ color: '#4b94b7' }}>{this.props.children}</span>
+      <span style={{ color: '#B82201' }}>{this.props.children}</span>
     );
   }
 }
