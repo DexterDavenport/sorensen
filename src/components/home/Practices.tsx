@@ -14,16 +14,16 @@ import WaterIcon from '@mui/icons-material/Water';
 type ServiceProps = {
   title: string;
   children: string;
-  icon: JSX.Element;
+  icon?: JSX.Element;
 };
 
 function Service(props: ServiceProps) {
   return (
     <Card sx={{ height: '100%' }}>
         <CardContent>
-            <Stack alignItems="center" my={4}>
+            {/* <Stack alignItems="center" my={4}>
                 {props.icon}
-            </Stack>
+            </Stack> */}
 
             <Typography variant="h4" component="div" mb={1}>
                 {props.title}
@@ -50,20 +50,20 @@ export default function Services(props: ServicesProps): JSX.Element {
 
       <Grid container spacing={3} alignItems="stretch">
         <Grid xs={12} sm={4}>
-          <Service title="Arbitration, and Mediation" icon={<ConstructionIcon sx={{ fontSize: 96 }} />}>
-            Our well construction services involve the drilling of new wells, installation of casing or liners, and placement of screens or filters to prevent contamination.
+          <Service title="Arbitration, and Mediation" >
+            Resolve disputes with a neutral third party outside of court. Faster, less formal, and less adversarial than going to court.
           </Service>
         </Grid>
 
         <Grid xs={12} sm={4}>
-          <Service title="Corporate and Commercial Litigation" icon={<HardwareIcon sx={{ fontSize: 96 }} />}>
-            We use top-of-the-line equipment and technology to provide reliable installation, repair, and maintenance of well pumps.
+          <Service title="Corporate and Commercial Litigation">
+            Resolve business disputes. Our experienced litigators can help you protect your interests and achieve the best outcome.          
           </Service>
         </Grid>
 
         <Grid xs={12} sm={4}>
-          <Service title="Contracts and Business Agreements" icon={<WaterIcon sx={{ fontSize: 96 }} />}>
-            Our water drilling services offer reliable access to clean water. Count on us for safe, efficient, and affordable water drilling services.
+          <Service title="Contracts and Business Agreements">
+            Get legal advice for your business contracts and agreements. Our team can draft, review, and negotiate agreements to protect your interests and minimize risk.
           </Service>
         </Grid>
       </Grid>

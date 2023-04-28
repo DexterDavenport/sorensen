@@ -17,7 +17,7 @@ export default function Footer(props: FooterProps): JSX.Element {
   return (
     <Box sx={{ width: "100%", backgroundColor }}>
       <Container>
-        <Stack direction="row" justifyContent="space-between" py={3}>
+        <Stack direction="row" justifyContent="space-between" py={1}>
           <Typography color="white">
             COPYRIGHT © {today.getFullYear()} SORENSENLAW&ASSOCIATES -
             ALL RIGHTS RESERVED.
